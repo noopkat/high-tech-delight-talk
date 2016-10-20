@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="136" height="185" viewBox="0, 0, 136, 185">
+  <defs>
+    <linearGradient id="Gradient_1" gradientUnits="userSpaceOnUse" x1="67.88" y1="160.333" x2="67.88" y2="4.917">
+      <stop offset="0" stop-color="#FFD527"/>
+      <stop offset="0" stop-color="#FDD83F"/>
+      <stop offset="0.092" stop-color="#FECF0B"/>
+      <stop offset="1" stop-color="#FFCF08"/>
+    </linearGradient>
+    <linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="67.688" y1="160.333" x2="67.688" y2="99">
+      <stop offset="0" stop-color="#FFCF08"/>
+      <stop offset="0.17" stop-color="#FFD62B"/>
+      <stop offset="0.492" stop-color="#E2B708"/>
+      <stop offset="0.931" stop-color="#FFCF08"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1">
+    <g>
+      <path d="M0.938,1 C1.309,0.398 135.438,-1.917 135.438,1.5 C135.438,4.917 135.938,132.5 134.938,138 C134.474,140.547 135.562,170.333 135.562,170.333 L132.05,171 L5.938,171.333 C5.938,171.333 3.711,173.667 1.438,170.333 C-0.462,167.549 1.438,142.5 1.438,142.5 C1.438,142.5 -1.836,5.5 0.938,1 z" fill="#F9E8AF"/>
+      <path d="M130.604,6.289 C131.271,8.227 131.55,10.817 131.55,10.817 L130.104,139.826 C130.104,139.826 131.565,147.979 131.938,152.906 C132.438,159.526 131.104,160.333 131.104,160.333 L49.521,159.853 L4.604,160.333 C4.604,160.333 3.438,159.042 3.771,152.906 C4.039,147.972 5.604,139.826 5.604,139.826 L4.166,11.457 C4.166,11.457 3.604,7.258 5.437,5.966 C7.271,4.675 129.938,4.352 130.604,6.289 z" fill="url(#Gradient_1)"/>
+      <path d="M5.938,99 L129.438,99 L129.438,160.333 L5.938,160.333 L5.938,99 z" fill="url(#Gradient_2)"/>
+      <path d="M2.462,166.333 L134.154,166.333 C135.271,166.333 136.178,167.229 136.178,168.333 L136.178,182 C136.178,183.105 135.271,184 134.154,184 L2.462,184 C1.344,184 0.438,183.105 0.438,182 L0.438,168.333 C0.438,167.229 1.344,166.333 2.462,166.333 z" fill="#E5D5A0"/>
+    </g>
+  </g>
+</svg>

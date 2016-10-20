@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Kitten Swash';
+  src: url('../fonts/kittenSwashTrial.ttf')  format('truetype'),
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  /*background-color: #E5D9EA;*/
+  /*background-color: #333;*/
+  background-color: #dedede;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#top {
+  padding: 10px 20px;
+  background-color: #dedede;
+  margin: 0;
+  border-top: 5px solid #000;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0 20px 20px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+  background-color: #000;
+  border-bottom: 5px solid #fff;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 35px solid #B14EFF;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 35px solid #B14EFF;
+}
+
+#marker {
+  position: absolute;
+  transition: left 0.15s ease;
+  display: none;
+}
+
+#train {
+  padding: 0;
+  margin: 0 0 0 -3px;
+  position: relative;
+  border-top: 10px solid #999;
+  border-bottom: 10px solid #333;
+  background-color: #5D5D5D;
+}
+
+img {
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  margin-right: 20px;
+  background-color: #fff;
+  font-size: 14px;
+  border: 2px solid #333;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+button:hover, button:focus {
+  /*padding: 7px 13px;*/
+  border: 5px solid #333;
+  font-weight: bold;
+}
+
+#seats, #cats {
+  position: absolute;
+  top: 349px;
+  left: 20px;
+}
+
+.cat {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 334px;
+  height: 254px;
+  transform: rotate(0deg);
+  transition: height 0.1s linear, transform 0.1s linear;
+}
+
+.svg_seat {
+  position: relative;
+  float: left;
+  width: 136px;
+  height: 185px;
+  margin-right: 0px;
+  margin-left: -3px;
+}
+
+.svg_seat:nth-child(8) {
+  margin-right: 500px;
+}
+
+#credits {
+  font-size: 12px;
+  padding-left: 20px;
+  line-height: 1.6em;
+}
+
+#credits a {
+  color: #454EFF;
+  text-decoration: none;
+}
+
+#credits a:hover, #credits a:focus {
+  color: #454EFF;
+  text-decoration: underline;
+}
+
+

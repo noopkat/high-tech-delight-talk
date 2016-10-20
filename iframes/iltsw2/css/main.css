@@ -1,0 +1,74 @@
+body {
+}
+
+.bar_container {
+  margin-top: 50px;
+  height: 0px;
+  width: 1000px;
+  vertical-align: bottom;
+}
+
+.bar {
+  width: 300px;
+  background-color: #0000ff;
+  margin-right: 2px;
+  border: 0px solid #000;
+  position: fixed;
+  left: 40px;
+}
+
+.barset {
+  display: inline-block;
+  height: 255px;
+  border: 0px solid #333;
+  width: 1px;
+  position: relative;
+  background-color: #5A4D83;
+  background-color: #000;
+}
+
+.tinybar {
+  width: 1px;
+  position: absolute;
+  margin: 0px;
+  bottom: 0px;
+}
+
+#barbox {
+  margin-top: 300px;
+  background-color: #5A4D83;
+  background-color: #fff;
+  height: 700px;
+  padding:0px;
+}
+
+.seat {
+  position: relative;
+  float: left;
+  height: 40px;
+  width: 40px;
+  margin-right: 3px;
+  margin-left: 3px;
+  transition: height 0.2s, width 0.2s
+}
+
+.seat.yellow {
+  background-color: #FFC51B;
+}
+
+.seat.orange {
+  background-color: #FF7302;
+}
+
+.seat.red {
+  background-color: #FF3F3F;
+}
+
+.seat.strum {
+  /*border: 2px solid #9F6BA0;*/
+  border-radius: 23px;
+}
+
+.seat.selected {
+  height: 55px;
+}

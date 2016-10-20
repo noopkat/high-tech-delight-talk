@@ -1,0 +1,191 @@
+body {
+  text-transform: none !important;
+  padding:0;
+  margin:0;
+  background-color: #FC7667;
+  background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none !important;
+  font-variant: normal !important;
+  /*color: #132A4E;*/
+  color: #88C425;
+  z-index: 9999;
+  position: relative;
+  font-weight: 100;
+}
+
+h1, h2 {
+  border-bottom: 5px #FF9967 solid;
+  border-bottom: none;
+}
+
+h1 {
+  font-size: 8em;
+}
+
+h2 {
+  margin: 0px 0 35px 0;
+  font-size: 7em;
+  /*font-style: italic;*/
+  font-style: normal;
+}
+
+h3 {
+  margin: 30 0 20px 0;
+  font-size: 5em;
+  color: #519548;
+}
+
+h3.fade {
+  opacity: 0.3;
+}
+
+a {
+  color: #F1A013 !important;
+}
+
+.deck-container {
+  font-family: 'Muli', sans-serif;
+}
+
+.slide {
+  padding:20px;
+  margin:0;
+  /*background-color: #D1E9AA;*/
+  background-color: #fff;
+  text-shadow: 1px 1px 1px #555;
+}
+
+.slide ul, ol {
+  margin-top: 6em;
+  list-style-type: none;
+}
+
+.slide li {
+  margin-bottom: 2em;
+  list-style-type: none;
+}
+
+.slide ul.snippet-no-num li, ol.snippet-no-num li {
+   margin: 0 !important;
+}
+
+.slide.drop {
+  text-shadow: 1px 1px 1px #333;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+  border: 0px solid #ff0000;
+  overflow: hidden;
+  position: absolute;
+  z-index:-1;
+}
+
+.fullimage {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top:0;
+  left:0;
+  overflow: hidden;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.coverslide {
+  background-color: #1B676B;
+}
+
+.coverslide h1 {
+  color: #BEF202;
+}
+
+.coverslide h1 {
+  border-bottom: 5px #BEF202 solid;
+  display:inline-block;
+  font-size: 8em;
+}
+
+.coverslide h1 span {
+  font-size: 0.45em;
+  color: #EAFDE6;
+  padding-top: 0.5em;
+}
+
+.coverslide img {
+  opacity: 0.3;
+}
+
+.whiteout {
+  background-color: #FFF;
+}
+
+.greyout {
+  background-color: #ddd;
+}
+
+.blackout {
+  background-color: #000;
+}
+
+.blackout pre {
+  background-color: #000;
+  color: #FFF;
+  font-style: normal !important;
+  font-family: "Courier New";
+}
+
+.blackout h1 {
+  border-bottom: none;
+}
+
+.inverseslide {
+  background-color: #E38116;
+
+}
+
+.inverseslide h1 {
+  color: #D1E9AA;
+  border-bottom: 5px #793500 solid;
+  display:inline-block;
+}
+
+
+img.fade  {
+  opacity: 0.5;
+  z-index: 1;
+}
+
+img.superfade  {
+  opacity: 0.3;
+  z-index: 1;
+}
+
+img.epicfade  {
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.deck-container > .slide.noscale {
+  padding:0;
+}
+
+.snippet-container {
+  font-size: 2em;
+}
+
+pre {
+  border: none;
+  margin-left: 0;
+}
+
+code {
+  font-size: 1.7em;
+  margin-left: 0;
+}
